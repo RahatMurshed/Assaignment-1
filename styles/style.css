@@ -1,0 +1,91 @@
+/* body style */
+main{
+    margin:116px 300px;
+}
+
+
+
+/* Nav Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 150px; 
+    align-items: center;
+     
+}
+
+.logo{
+   font-size: 40px; 
+   color: #4E47FF;
+}
+.hero-bg{
+    background-image: url(../Assets/Hero-bg.png);
+    padding: 0px 0 60px;
+}
+/* banner styles */
+.banner{  
+    text-align: center;
+    margin: 200px 500px  ;
+    max-width: 905px;
+    max-height: 152px;  
+}
+
+.banner-heading{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 27px;
+
+}
+
+/* Action section style */
+.action{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.action-column-1{
+    max-width: 500px;
+    padding: 40px;
+}
+
+
+.column-1-headline{
+    font-size: 42px;
+    font-weight: bold;
+}
+.column-1-sub-headline{
+    font-size: 26px;
+    font-weight: 400;
+    color: #252432;
+}
+
+
+/* shared Styles */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.button-primary {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 30px;
+    
+    border-radius:10px ;
+    border: none;
+    font-size: 16px;
+    
+}
+img{
+    border-radius: 48px;
+}

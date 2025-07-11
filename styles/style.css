@@ -60,9 +60,72 @@ nav{
     color: #252432;
 }
 
+/* product users section style */
+.product-users{
+    text-align: center;
+    max-width: 1140px;
+    background-color: #4d47ff1b;
+    padding: 30px 50px 40px;
+    border-radius: 10px;
+    margin: 110px 0 0 40px;
+}
+
+.product-user-element{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.product-user-headline{
+    font-size: 38px;
+    font-weight: bold;
+}
+.main-element{
+    font-size: 75px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.element-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* contact form section style */
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0;
+    margin:100px 0px 0 40px;
+    
+}
+.contact-form-left-side{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 00px 200px 0 0px;
+
+}
+
+.form-label{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: 20px 0 10px 0;
+    
+}
+
+.form-input{
+    padding: 22px 20px;
+    padding-right: 350px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(205, 205, 205);
+}
+
 
 /* shared Styles */
-
+body{
+    background: #fbfbff;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -85,6 +148,16 @@ nav{
     border: none;
     font-size: 16px;
     
+}
+.button-form{
+    background-color: #4E47FF;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 10px;
+    border-radius:10px ;
+    font-size: 16px;
+    width: 600px;
+    border: none;
 }
 img{
     border-radius: 48px;

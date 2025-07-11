@@ -89,7 +89,50 @@ nav{
     font-size: 20px;
     font-weight: 400;
 }
+/* users feedback section */
+.users-feedback{
+    text-align: center;
+    margin-top: 200px;
+}
 
+.feedback-section{
+    display: flex;
+    
+    gap: 10px;
+}
+.feedback-column{
+    border: 2px solid #F2EDED;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 10px;text-align: start;
+}
+
+.feedback-top-heading{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+}
+.feedback-heading{
+    font-size: 30px;
+    
+}
+.feedback-subheading{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.user-info{
+    display: flex;
+    
+}
+.username-date{
+    margin-left:30px;
+}
+.username{
+    margin-bottom: 0;
+}
+.date{
+    margin-top: 4px;
+}
 /* contact form section style */
 .contact-form{
     display: flex;
@@ -183,6 +226,7 @@ body{
     border-radius:10px ;
     border: none;
     font-size: 16px;
+    cursor: pointer;
     
 }
 .button-form{
@@ -194,7 +238,15 @@ body{
     font-size: 16px;
     width: 620px;
     border: none;
+    cursor: pointer;
 }
 img{
     border-radius: 48px;
+}
+a:hover{
+    color: #4E47FF;
+    
+}
+button:hover{
+    background-color: #140ec6;
 }
